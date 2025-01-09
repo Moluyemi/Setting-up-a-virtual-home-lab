@@ -14,8 +14,8 @@ Let's dive in!
 
 
 
-<h3>Index</h3>
 
+<h2>Index</h2>
 <ul>
 <li>Virtualization Overview</li>
 <li>Free Virtualization Software</li>
