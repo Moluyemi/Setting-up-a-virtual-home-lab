@@ -165,6 +165,7 @@ I am going to leave all of these options at default... so I am done creating the
 Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.
 
 
+<img src="Folders/VM-Network.jpg">
 
 
 
