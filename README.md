@@ -197,6 +197,7 @@ Click OK and now when we launch the VM you will be able to begin your OS install
 I mounted a Windows Server 2016 ISO so when I launch the VM I will see the installation screen for this OS.
 
 
+<img src="Folders/Windows-Server-2016-Install-2.jpg">
 
 
 Now you can run through your OS installation and complete your lab setup.
