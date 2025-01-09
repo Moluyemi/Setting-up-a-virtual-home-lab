@@ -112,6 +112,7 @@ Keep in mind that you won't be able to access all of these network types if you 
 Here is an overview of the different network types you could create:
 
 
+<img src="Folders/VM-Network.jpg">
 
 
 
