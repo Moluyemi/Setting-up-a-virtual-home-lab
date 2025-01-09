@@ -158,9 +158,13 @@ First I will select File > Preferences, then navigate to the Network tab. Next I
 
 This will create a new NAT Network. If I want to modify the subnet, disable DHCP or support IPv6 I can do this by double-clicking the NAT Network.
 
+<img src="Folders/NAT-Network-2.jpg">
+
 
 I am going to leave all of these options at default... so I am done creating the Virtual Network!
 Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.
+
+
 
 
 
