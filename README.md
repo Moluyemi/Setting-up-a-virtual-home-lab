@@ -31,6 +31,12 @@ Let's dive in!
 
 <h2>Virtualization Overview</h2>
 So what is virtualization anyway? Basically, the IT term virtualization refers to the practice of emulating (or simulating) a computer. You can use a Virtual Machine to run a computer as an application on your host computer.
+
+
+
+
+
+
  
 On the image below - the top computer would be the host computer. The three computers below the host are referred to as guest virtual machines.
 
@@ -77,33 +83,33 @@ Keep in mind that you won't be able to access all of these network types if you 
 Here is an overview of the different network types you could create:
 
 
-NAT
+<h4>NAT</h4>
 This network type allows your VMs to use the internet connectivity of the host computer. You will have no connectivity to other VMs or the host computer. Use this type if your lab will only have one VM.
  
 Using NAT is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-NAT Network
+<h4>NAT Network</h4>
 This network is the same as NAT, but it allows your VMs to communicate to other VMs that are attached to the same NAT network. Use this when your labs use multiple VMs and need internet connectivity.
  
 You can create a NAT Network by clicking on File > Preferences. Select the Network tab and then click the plus button to create a new NAT Network.
 
 
-Bridged Adapter
+<h4>Bridged Adapter</h4>
 Using this network type will cause your router to treat your VM as a physical computer. This means your VM will be connected to the same network as your host computer. Use this lab when you need to access your VMs from your host network.
 
 Using a bridged adapter is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Internal Network
+<h4>Internal Network</h4>
 This network provides your VMs with connectivity but no external access. Use this when you want to create an isolated IT lab.
 Using an Internal Network is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Host-only Adapter
+<h4>Host-only Adapter</h4>
 This is essentially the same as an internal network, except that your host computer will have a direct IP connection to the VM. Meaning you can RDP, SSH or ping the VMs from the host computer. Use this network type when you will need direct access to the VMs from your host computer. It is commonly used for test web servers (think copying files from the host computer to the VM web server, or directly editing the code on the web server VM from your host computer.
  
 You can create a host-only network by select File > Host Network Manager
 
 
-Generic Driver
+<h4>Generic Driver</h4>
 Oracles documentation for the generic driver states:
 The generic driver attachment is special and cannot be considered as an alternative to other attachment types.
 
@@ -124,7 +130,7 @@ Next we need an operating system (OS) to install on our Virtual Machines. You co
  
 The easiest way to find what you're looking for is to simply google the name of your operating system with "ISO download" in the search.  For example if you want Windows Server 2016, just search 
 
-"Windows Server 2016 ISO Download".
+<h4>"Windows Server 2016 ISO Download".</h4>
 You should ONLY download ISOs from official websites. This means you shouldn't download Windows Server from a website like "sneakyfreecdkeys.com"...
 
 I will still provide links to the most common operating systems that people want to install below. Keep in mind if the link is dead you can just run a quick google search and easily find the download.
